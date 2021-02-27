@@ -1,0 +1,6 @@
+export const WRITE_IMAGES_CONFIG = 'WRITE_HALL_CONFIG';
+
+export const DELETE_IMAGE = 'DELETE_IMAGE';
+
+export const SET_ACTIVE='SET_ACTIVE'; 
+export const DELETE_ACTIVE='DELETE_ACTIVE'; 

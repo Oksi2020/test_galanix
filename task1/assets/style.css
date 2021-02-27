@@ -1,0 +1,80 @@
+.flag {
+	width: 300px;
+	border: 1px solid black;
+	margin: 10px 0; 
+	height: 200px;
+}
+/*-----------------------Ukraine--------------------*/
+.ukraine__row {
+	height: 50%;
+}
+
+.ukraine__row:first-child {
+	background-color: blue;
+}
+.ukraine__row:last-child {
+	background-color: yellow;
+}
+/*-------------------------Japan---------------------*/
+.japan {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.japan__circle {
+	border-radius: 100px;
+	width: 120px;
+	height: 120px;
+	background-color: #BC002D;
+}
+/*--------------------------Iceland-------------------*/
+.iceland {
+	background-color: #DC1E35;
+	display: grid;
+	grid-template-columns: 2fr 4fr; 
+	grid-gap: 20px;
+}
+.iceland__item {
+	background-color: #02529C;
+}
+.iceland__item:nth-child(1) {
+	border-right: 10px solid #fff;
+	border-bottom: 10px solid #fff;
+}
+
+.iceland__item:nth-child(2) {
+	border-left: 10px solid #fff;
+	border-bottom: 10px solid #fff;
+}
+.iceland__item:nth-child(3) {
+	border-right: 10px solid #fff;
+	border-top: 10px solid #fff;
+}
+.iceland__item:nth-child(4) {
+	border-left: 10px solid #fff;
+	border-top: 10px solid #fff;
+}
+
+/*----------------------------Czech--------------------*/
+.сzech {
+	position: relative;
+}
+.сzech__rectangle {
+	position: absolute;
+	left: 0;
+    width: 0;
+	height: 0;
+	border-top: 100px solid transparent;
+	border-left: 150px solid #11457E;
+	border-bottom: 100px solid transparent;
+}
+.czech__row {
+	height: 50%;
+}
+.czech__row:first-child {
+	background-color: #fff;
+}
+.czech__row:last-child {
+	background-color: #D7141A;
+}
